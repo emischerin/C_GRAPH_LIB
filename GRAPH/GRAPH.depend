@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1527021945 source:c:\users\egor\desktop\graph\graph.c
+	<stdlib.h>
+	<stdio.h>
+	"Graph.h"
+	"NodeList.h"
+	<strings.h>
+
+1527022222 c:\users\egor\desktop\graph\graph.h
+	"NodeList.h"
+
+1527022275 c:\users\egor\desktop\graph\nodelist.h
+
+1527022383 source:c:\users\egor\desktop\graph\nodelist.c
+	<stdlib.h>
+	<stdio.h>
+	"NodeList.h"
+
+1527022461 source:c:\users\egor\desktop\graph\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Graph.h"
+	"NodeList.h"
+

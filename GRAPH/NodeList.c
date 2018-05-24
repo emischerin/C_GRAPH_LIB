@@ -37,6 +37,21 @@ static void AddLastElement(struct NodeList* list,int* edgevalue){
 
 }
 
+void DeleteNodeList(struct NodeList* list){
+
+    struct Node* current = list->head;
+    struct Node* next;
+
+
+    while(current){
+            next = current->next;
+            free(current);
+            current = next;
+    }
+
+    free(list);
+}
+
 void PrintNodeList(struct NodeList* list){
 
     struct Node* tmp = list->head;

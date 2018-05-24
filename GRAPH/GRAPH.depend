@@ -22,3 +22,27 @@
 	"Graph.h"
 	"NodeList.h"
 
+1527186258 source:/home/egor/Git/C_GRAPH_LIB/GRAPH/Graph.c
+	<stdlib.h>
+	<stdio.h>
+	"Graph.h"
+	"NodeList.h"
+	<strings.h>
+
+1527186224 /home/egor/Git/C_GRAPH_LIB/GRAPH/Graph.h
+	"NodeList.h"
+
+1527186224 /home/egor/Git/C_GRAPH_LIB/GRAPH/NodeList.h
+	<stdio.h>
+
+1527186224 source:/home/egor/Git/C_GRAPH_LIB/GRAPH/main.c
+	<stdio.h>
+	<stdlib.h>
+	"Graph.h"
+	"NodeList.h"
+
+1527186283 source:/home/egor/Git/C_GRAPH_LIB/GRAPH/NodeList.c
+	<stdlib.h>
+	<stdio.h>
+	"NodeList.h"
+

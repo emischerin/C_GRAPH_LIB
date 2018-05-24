@@ -24,4 +24,8 @@ int main()
 
 
    PrintGraph(g);
+
+   DeleteGraph(g);
+
+
 }

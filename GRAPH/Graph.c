@@ -23,6 +23,23 @@ void AddEdge(struct Graph* g,int edgevalue,int list_index){
 
 }
 
+void DeleteGraph(struct Graph* g){
+
+    int i;
+    struct NodeList* current;
+
+    for (i = 0; i < g->nodelist_size;i++){
+
+        current = g->node_list[i];
+
+        DeleteNodeList(current);
+    }
+
+    free(g);
+
+
+}
+
 void PrintGraph(struct Graph* g){
 
     int i;
